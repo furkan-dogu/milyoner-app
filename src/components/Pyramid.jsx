@@ -1,0 +1,19 @@
+import { moneyPyramid } from "../helpers/moneyPyramid";
+
+const Pyramid = ({ questionNumber }) => {
+
+  return (
+    <div className="pyramid">
+      <ul className="moneyList">
+        {moneyPyramid.map(({ id, amount }) => (
+          <li key={id} className={questionNumber === id ? "moneyListItem active" : "moneyListItem"}>
+            <span className="moneyListItemNumber">{id}</span>
+            <span className="moneyListItemAmount">{amount}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default Pyramid;
