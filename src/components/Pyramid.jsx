@@ -1,6 +1,4 @@
-import { moneyPyramid } from "../helpers/moneyPyramid";
-
-const Pyramid = ({ questionNumber }) => {
+const Pyramid = ({ questionNumber, moneyPyramid }) => {
 
   return (
     <div className="pyramid">
