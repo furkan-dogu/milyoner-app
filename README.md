@@ -17,7 +17,7 @@ This project contains a trivia game application where users progress by answerin
 
 ## Live Demo
 
-[Milyoner App]()
+[Milyoner App](https://milyoner-app.vercel.app/)
 
 ## Technologies Used
 
