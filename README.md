@@ -11,7 +11,7 @@ This project contains a trivia game application where users progress by answerin
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
-- [Usage](#useage)
+- [Usage](#usage)
 - [Project Skeleton](#project-skeleton)
 - [Screenshots](#screenshots)
 
